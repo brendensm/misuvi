@@ -1,0 +1,20 @@
+Package: misuvi
+Type: Package
+Title: Access the Michigan Substance Use Vulnerablility Index
+Version: 0.1.0
+Author: Brenden Smith
+Maintainer: Brenden Smith <brendensmithmi@gmail.com>
+Description: Use this package to easily access the MI-SUVI data sets.
+    Easily import data sets with full metrics, percentiles,
+    Z-scores, or rankings. This package also includes a function to import 
+    shape files for easy mapping and a function to access the full technical
+    documentation. All data is sourced from Michigan.gov/OpioidsData.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+RoxygenNote: 7.3.1
+Imports:
+  sf,
+  tigris
