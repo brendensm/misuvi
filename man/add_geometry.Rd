@@ -7,8 +7,16 @@
 add_geometry(x)
 }
 \arguments{
-\item{x}{a data frame for which you want to add shape files to. Must be one of the MISUVI data sets.}
+\item{x}{a data frame for which you want to add shape files to. Must be one of the MI-SUVI data sets.}
+}
+\value{
+an sf data.frame of MI-SUVI data.
 }
 \description{
 This function queries shape files from the tigris package. This function returns an sf object.
+}
+\examples{
+my_data <- misuvi_load() |> add_geometry()
+
+
 }

@@ -6,6 +6,13 @@
 \usage{
 dictionary()
 }
+\value{
+A data.frame of the abbreviated and full names of the MI-SUVI variables.
+}
 \description{
-This package provides a tidy version of the MISUVI data sets. This function returns a data frame of the cleaned variable names and the original variable names.
+This package provides a tidy version of the MI-SUVI data sets. This function returns a data frame of the cleaned variable names and the original variable names.
+}
+\examples{
+dictionary()
+
 }

@@ -2,10 +2,17 @@
 % Please edit documentation in R/documentation.R
 \name{documentation}
 \alias{documentation}
-\title{View the MISUVI Documentation}
+\title{View the MI-SUVI Documentation}
 \usage{
 documentation()
 }
+\value{
+NULL, opens a web browser of the technical documentation.
+}
 \description{
-This function opens up a PDF of the MISUVI documentation in your web browser.
+This function opens up a PDF of the MI-SUVI documentation in your web browser.
+}
+\examples{
+documentation()
+
 }

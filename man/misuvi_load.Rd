@@ -2,7 +2,7 @@
 % Please edit documentation in R/misuvi_load.R
 \name{misuvi_load}
 \alias{misuvi_load}
-\title{Load MISUVI Data}
+\title{Load MI-SUVI Data}
 \usage{
 misuvi_load(geography = "county", type = "metrics", moe = F)
 }
@@ -13,6 +13,15 @@ misuvi_load(geography = "county", type = "metrics", moe = F)
 
 \item{moe}{Logical -- choose whether margin of error variables are returned. This applies to the "metrics" data sets only.}
 }
+\value{
+A clean data.frame of MI-SUVI data.
+}
 \description{
-This function allows the user to select the
+This function allows the user to select the MI-SUVI data set they want returned.
+}
+\examples{
+zcta_metrics <- misuvi_load("zcta", "metrics")
+county_zscores <- misuvi_load("county", "zscores")
+
+
 }

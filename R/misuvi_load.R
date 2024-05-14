@@ -1,14 +1,28 @@
-#'Load MISUVI Data
+#'Load MI-SUVI Data
 #'
-#'This function allows the user to select the
+#'This function allows the user to select the MI-SUVI data set they want returned.
 #'
 #'@param geography Choose the geographic level you want returned to you. "county" or "zcta".
 #'@param type Select the type of data frame you would like. Options include "metrics", "percentiles", "zcores", and "ranks".
 #'@param moe Logical -- choose whether margin of error variables are returned. This applies to the "metrics" data sets only.
 #'
+#'@examples
+#'zcta_metrics <- misuvi_load("zcta", "metrics")
+#'county_zscores <- misuvi_load("county", "zscores")
+#'
+#'
 #'@export misuvi_load
+#'@returns A clean data.frame of MI-SUVI data.
 
 misuvi_load <- function(geography = "county", type = "metrics", moe = F){
+
+  if(!(type %in% c("metrics", "percentiles", "zscores", "ranks"))){
+    stop("Please select a type from the following options: 'metrics', 'percentiles', 'zscores', 'ranks'")
+  }
+
+  if(!(geography %in% c("county", "zcta"))){
+    stop("Please select a geography of 'county' or 'zcta'.")
+  }
 
   if(type == "metrics"){
 
