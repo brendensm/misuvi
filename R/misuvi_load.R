@@ -14,7 +14,7 @@
 #'@export misuvi_load
 #'@returns A clean data.frame of MI-SUVI data.
 
-misuvi_load <- function(geography = "county", type = "metrics", moe = F){
+misuvi_load <- function(geography = "county", type = "metrics", moe = FALSE){
 
   if(!(type %in% c("metrics", "percentiles", "zscores", "ranks"))){
     stop("Please select a type from the following options: 'metrics', 'percentiles', 'zscores', 'ranks'")

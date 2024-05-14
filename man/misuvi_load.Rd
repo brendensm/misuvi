@@ -4,7 +4,7 @@
 \alias{misuvi_load}
 \title{Load MI-SUVI Data}
 \usage{
-misuvi_load(geography = "county", type = "metrics", moe = F)
+misuvi_load(geography = "county", type = "metrics", moe = FALSE)
 }
 \arguments{
 \item{geography}{Choose the geographic level you want returned to you. "county" or "zcta".}
