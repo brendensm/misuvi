@@ -1,6 +1,6 @@
 Package: misuvi
 Type: Package
-Title: Access the 'Michigan Substance Use Vulnerablility Index (MI-SUVI)'
+Title: Access the 'Michigan Substance Use Vulnerability Index (MI-SUVI)'
 Version: 0.1.0
 Authors@R: c(person("Brenden Smith", role = c("aut", "cre", "cph"), email = "brendensmithmi@gmail.com"))
 Maintainer: Brenden Smith <brendensmithmi@gmail.com>
