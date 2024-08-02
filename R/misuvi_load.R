@@ -3,7 +3,7 @@
 #'This function allows the user to select the MI-SUVI data set they want returned.
 #'
 #'@param geography Choose the geographic level you want returned to you. "county" or "zcta".
-#'@param type Select the type of data frame you would like. Options include "metrics", "percentiles", "zcores", and "ranks".
+#'@param type Select the type of data frame you would like. Options include "metrics", "percentiles", "zscores", and "ranks".
 #'@param moe Logical -- choose whether margin of error variables are returned. This applies to the "metrics" data sets only.
 #'
 #'@examples
