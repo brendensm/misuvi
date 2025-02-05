@@ -22,5 +22,27 @@ devtools::install_github("brendensm/misuvi")
 -   `documentation` &mdash; Launches a browser with the full technical documentation of the MI-SUVI data.
 -   `dictionary` &mdash; Provides a data frame with a more detailed name of the abbreviated variables that `misuvi_load` returns.
 
+## Usage
+
+### Loading Data
+
+By default, the `misuvi_load` function returns the raw metrics of Michigan Counties without the margin of error variables.
+
+```r
+library(misuvi)
+
+misuvi_load(geography = "county", type = "metrics", moe = "FALSE")
+```
+
+To return ZCTAs, simply change geography to "zcta". Likewise we can choose to return ranks, zscores, or percentile ranks too.
+
+```r
+misuvi_load("zcta", type = "ranks")
+
+misuvi_load("zcta", type = "zcores")
+
+misuvi_load("zcta", type = "percentiles")
+```
+
 ## References
 Michigan Department of Health and Human Services. (2024). Michigan 2022 Substance Use Vulnerability Index Documentation(Version 1). https://www.michigan.gov/opioids/-/media/Project/Websites/opioids/documents/edc32Michigan-2022-SUVI-Documentation-562024.pdf?rev=3cd9b9477c194f3fb616292157918cc2.

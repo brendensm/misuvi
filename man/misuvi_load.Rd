@@ -4,12 +4,12 @@
 \alias{misuvi_load}
 \title{Load MI-SUVI Data}
 \usage{
-misuvi_load(geography = "county", type = "metrics", moe = FALSE)
+misuvi_load(geography = "county", type = "zscores", moe = FALSE)
 }
 \arguments{
 \item{geography}{Choose the geographic level you want returned to you. "county" or "zcta".}
 
-\item{type}{Select the type of data frame you would like. Options include "metrics", "percentiles", "zcores", and "ranks".}
+\item{type}{Select the type of data frame you would like returned. Options include "metrics", "percentiles", "zscores", and "ranks".}
 
 \item{moe}{Logical -- choose whether margin of error variables are returned. This applies to the "metrics" data sets only.}
 }

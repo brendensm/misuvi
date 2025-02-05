@@ -8,8 +8,9 @@
 #'@importFrom sf st_as_sf
 #'
 #'@examples
+#'\dontrun{
 #'my_data <- misuvi_load() |> add_geometry()
-#'
+#'}
 #'
 #'@export add_geometry
 #'@returns an sf data.frame of MI-SUVI data.

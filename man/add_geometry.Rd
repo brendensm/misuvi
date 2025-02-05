@@ -16,7 +16,8 @@ an sf data.frame of MI-SUVI data.
 This function queries shape files from the tigris package. This function returns an sf object.
 }
 \examples{
+\dontrun{
 my_data <- misuvi_load() |> add_geometry()
-
+}
 
 }
