@@ -46,3 +46,4 @@ misuvi_load("zcta", type = "percentiles")
 
 ## References
 Michigan Department of Health and Human Services. (2024). Michigan 2022 Substance Use Vulnerability Index Documentation(Version 1). https://www.michigan.gov/opioids/-/media/Project/Websites/opioids/documents/edc32Michigan-2022-SUVI-Documentation-562024.pdf?rev=3cd9b9477c194f3fb616292157918cc2.
+
