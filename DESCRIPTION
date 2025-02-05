@@ -1,7 +1,7 @@
 Package: misuvi
 Type: Package
 Title: Access the Michigan Substance Use Vulnerability Index (MI-SUVI)
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(person("Brenden Smith", role = c("aut", "cre", "cph"), email = "brendensmithmi@gmail.com"))
 Maintainer: Brenden Smith <brendensmithmi@gmail.com>
 Description: Easily import the MI-SUVI data sets. The user can import data sets with full metrics, percentiles, Z-scores, or rankings.
